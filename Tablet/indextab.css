@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.grid-container {
+.productos {
     display: grid;
     grid-template-rows: 200px 500px;
     align-items: center;
