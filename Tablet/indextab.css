@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 200px 500px;
+    align-items: center;
+    border: 2px solid blue;
+}
+
+.grid-container header, .grid-container section{
+    border: 3px solid red;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.main article{
+    border: 5px solid black;
+}
+
+.cajaazul {
+    background-color: blue;
+    width: 300px;
+    height: 500px;
+    color: white;
+    padding: 30px 10px;
+ /*  padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 20px;*/
+
+    margin: 50px 60px;
+}
