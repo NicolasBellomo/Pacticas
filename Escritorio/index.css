@@ -1,0 +1,43 @@
+
+ /* body{
+    display: flex;
+} */
+
+.top nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: yellow;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.misma{
+    display: flex;  
+    flex-direction: row;
+    background-color: yellow;
+    padding: 10px;
+    justify-content: space-between;
+ 
+}
+
+.izquierda{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.derecha{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: left;
+}
+
+
+
+a{
+    flex-direction: row;
+    padding: 10px;
+}
