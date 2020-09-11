@@ -28,8 +28,22 @@ body{
 }
 
 @media (min-width: 768px){
-    body{
+    body {
         display: flex;
         background-color: blue;
     }
+    .banner{
+        display: flex;
+
+    }
 }
+
+@media (min-width: 1024px) {
+    .header__nav {
+        display: flex;
+        width: 100%;
+        
+    }
+    
+}
+
